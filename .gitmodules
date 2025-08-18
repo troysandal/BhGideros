@@ -1,0 +1,12 @@
+[submodule "Bowerhaus/BhHelpers"]
+	path = Bowerhaus/BhHelpers
+	url = git@github.com:bowerhaus/BhHelpers.git
+[submodule "Bowerhaus/BhWax"]
+	path = Bowerhaus/BhWax
+	url = git@github.com:troysandal/BhWax.git
+[submodule "Misc"]
+	path = Misc
+	url = git@github.com:bowerhaus/Misc.git
+[submodule "wax"]
+	path = wax
+	url = git@github.com:troysandal/wax.git
