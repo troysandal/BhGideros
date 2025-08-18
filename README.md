@@ -1,11 +1,11 @@
 # Bowerhaus Gideros
 
-This repository mimics the folder structure for the [Bowerhaus library for Gideros](https://github.com/troysandal/BhWax/blob/master/README.md#folder-structure) using submodule from my own forks.  These forks are being updated for modern Gideros (iOS 18, Luau).  
+This repository mimics the folder structure from [Bowerhaus library for Gideros](https://github.com/troysandal/BhWax/blob/master/README.md#folder-structure) using submodules from my own forks.  These forks are being updated for modern Gideros (iOS 18, Luau).  
 
 An anti-goal for this project is to get wax working against Lua versions greater than 5.1, that's for someone else.
 
 # Building
-This project uses sub-modules so you need to init them after you first check out the project.
+This project uses submodules so you need to init them after you first check out the project.
 ```
 git clone git@github.com:troysandal/BhGideros.git
 cd BhGideros
