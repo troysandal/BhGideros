@@ -1,6 +1,6 @@
 [submodule "Bowerhaus/BhHelpers"]
 	path = Bowerhaus/BhHelpers
-	url = git@github.com:bowerhaus/BhHelpers.git
+	url = git@github.com:troysandal/BhHelpers.git
 [submodule "Bowerhaus/BhWax"]
 	path = Bowerhaus/BhWax
 	url = git@github.com:troysandal/BhWax.git
