@@ -26,6 +26,7 @@ git submodule update --init --recursive
 ```
 
 ## Status
+**2025-09-03** - [Gideros plugin](https://github.com/troysandal/BhWax) landed.
 **2025-09-01** - lua_setfenv() and lua_getfenv() replacements appear to be working against the BhWaxDemo examples. At this point I would say the project is ready for testing.
 
 ### Task List
@@ -47,8 +48,8 @@ git submodule update --init --recursive
   - [ ] WAX_REPL
   - [x] setfenv/getfenv substitute
 - [ ] BhWax
-  - [ ] WaxDemoXxx working
-  - [ ] Plugin/iOS 
-    - [ ] hotwax modern xcode project
-    - [ ] Modern .giderosplugin
+  - [x] WaxDemoXxx working
+  - [x] Plugin/iOS 
+    - [x] hotwax modern xcode project
+    - [x] Modern .giderosplugin
 
