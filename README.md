@@ -17,16 +17,30 @@ This repository enforces the folder structure originaly defined by Bowerhaus.  I
 | BhGideros/Misc | Miscellaneous classes, such as GTween and Easing. |
 | BhGideros/wax | Gideros Luau compatible wax |
 
-## Building
-This project uses submodules so you need to init them after you first check out the project.
-```
+## Fetching & Building
+1. This project uses submodules so you need to init them after you first check out the project.
+``` sh
+# Fetch repo and submodules
 git clone git@github.com:troysandal/BhGideros.git
 cd BhGideros
 git submodule update --init --recursive
 ```
+2. Build the Gideros pluging and player + wax
+```sh
+# Build wax plugin and player
+cd Bowerhaus/BhWax/Plugin
+./build.sh
+./install.sh
+
+cd ../Player
+./build.sh
+```
+3. Follow [Player README](Bowerhaus/BhWax/Player/README.md) to get it building and running
+3. Open [BhWaxDemo](Bowerhaus/BhWax/Demo/BhWaxDemo.gproj) in Gideros Studio and play with the examples.
 
 ## Status
 **2025-09-03** - [Gideros plugin](https://github.com/troysandal/BhWax) landed.
+
 **2025-09-01** - lua_setfenv() and lua_getfenv() replacements appear to be working against the BhWaxDemo examples. At this point I would say the project is ready for testing.
 
 ### Task List
