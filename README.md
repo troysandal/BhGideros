@@ -47,7 +47,7 @@ git submodule update --init --recursive
   - [ ] WAX_TEST (As Gideros Plugin)
   - [ ] WAX_REPL
   - [x] setfenv/getfenv substitute
-- [ ] BhWax
+- [x] BhWax
   - [x] WaxDemoXxx working
   - [x] Plugin/iOS 
     - [x] hotwax modern xcode project
